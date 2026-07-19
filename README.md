@@ -56,5 +56,55 @@ student-portfolio/
 ├── README.md
 └── .gitignore
 ```
+#  Practical 2
+
+## Overview
+This update enhances the Student Portfolio by implementing **React Router** to create a multi-page application with seamless navigation. Users can now navigate between different sections without reloading the page.
+
+
+
+## Features
+- Added React Router for client-side routing
+- Implemented a reusable Navigation Bar
+- Created Home page
+- Added Projects page
+- Added Contact page
+- Multi-route React application with smooth navigation
+
+
+
+## Routes
+
+| Route | Description |
+|--------|-------------|
+| `/` | Home page displaying the portfolio introduction |
+| `/projects` | Displays project information |
+| `/contact` | Displays contact details |
+
+---
+
+## Updated Project Structure
+
+```text
+src/
+├── components/
+│   └── Navbar.jsx
+├── pages/
+│   ├── Home.jsx
+│   ├── Projects.jsx
+│   └── Contact.jsx
+├── App.jsx
+└── main.jsx
 ```
+
+---
+
+## Improvements
+- Better application structure
+- Easy navigation between pages
+- Scalable routing architecture
+- Improved code organization using separate page components
+```
+```
+
 
